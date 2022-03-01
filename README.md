@@ -1,1 +1,2 @@
-This is a starter template for [Learn Next.js](https://nextjs.org/learn).
+# Ensemble-with-me
+Make it easy for people to find other people to ensemble with.
