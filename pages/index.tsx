@@ -3,7 +3,7 @@ import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 
 const Home: NextPage = () => {
-  return (
+    return (
     <div className={styles.container}>
       <Head>
         <title>Ensemble with me</title>
@@ -12,12 +12,12 @@ const Home: NextPage = () => {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
+          <h1 className={styles.title}>
           This app serves a single purpose: make it easy for people to find others to <a href="https://en.wikipedia.org/wiki/Mob_programming">ensemble</a> program with.
         </h1>
 
         <p className={styles.description}>
-          Get started by <a href="http://somewhere.com/">registering</a>.
+          Get started by <a href="/registration">registering</a>.
 
         </p>
       </main>

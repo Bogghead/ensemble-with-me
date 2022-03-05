@@ -13,13 +13,8 @@ const Registration: NextPage = () => {
 
             <main className={styles.main}>
                 <h1 className={styles.title}>
-                    This app serves a single purpose: make it easy for people to find others to <a href="https://en.wikipedia.org/wiki/Mob_programming">ensemble</a> program with.
+                    Register for an account.
                 </h1>
-
-                <p className={styles.description}>
-                    Get started by <a href="http://somewhere.com/">registering</a>.
-
-                </p>
             </main>
 
             <footer className={styles.footer}>
