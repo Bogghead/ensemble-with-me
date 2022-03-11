@@ -1,4 +1,6 @@
 import { init } from 'next-firebase-auth'
+import { getAuth, setPersistence, signInWithEmailAndPassword, browserSessionPersistence } from "firebase/auth";
+
 
 const initAuth = () => {
     init({
